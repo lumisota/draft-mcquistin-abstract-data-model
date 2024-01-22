@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-model href="rfc7991bis.rnc"?> 
+
+<rfc
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  category="exp"
+  docName="draft-mcquistin-abstract-data-model-00"
+  ipr="trust200902"
+  obsoletes=""
+  updates=""
+  submissionType="IETF"
+  xml:lang="en"
+  version="3">
+
+  <front>
+    <title abbrev="Abstract Model for Protocol Data Units">An Abstract Model for Protocol Data Units</title>
+
+    <seriesInfo name="Internet-Draft" value="draft-mcquistin-abstract-data-model-00" status="experimental" />
+   
+    <author fullname='Stephen McQuistin' initials='S.' surname='McQuistin'>
+        <organization>University of St Andrews</organization>
+        <address>
+            <postal>
+                <street>School of Computer Science</street>
+                <city>St Andrews</city>
+                <code>KY16 9AJ</code>
+                <country>UK</country>
+            </postal>
+            <email>sm@smcquistin.uk</email>
+        </address>
+    </author>
+
+    <author fullname='Colin Perkins' initials='C. S.' surname='Perkins'>
+        <organization>University of Glasgow</organization>
+        <address>
+            <postal>
+                <street>School of Computing Science</street>
+                <city>Glasgow</city>
+                <code>G12 8QQ</code>
+                <country>UK</country>
+            </postal>
+            <email>csp@csperkins.org</email>
+        </address>
+    </author>
+
+   
+    <date year="2024" />
+
+    <abstract>
+      <t>
+        This document describes an abstract model for representating network protocol
+        data. 
+      </t>
+    </abstract>
+ 
+  </front>
+
+  <middle>
+    
+    <section>
+      <name>Introduction</name>     
+      
+      <t>
+        The use of structured languages in standards documents enables protocol
+        definitions to be extracted automatically, and used, for example, to generate
+        parser code for the protocols that they specify.
+      </t>
+    </section>
+    
+    <section>
+      <name>Architecture</name>
+    </section>   
+
+    <section>
+      <name>Abstract Data Model</name>
+    </section>   
+
+    <section anchor="IANA">
+      <name>IANA Considerations</name>
+      <t>This document contains no actions for IANA.</t>
+    </section>
+    
+    <section anchor="Security">
+      <name>Security Considerations</name>
+      <t>todo</t>
+    </section>
+
+  </middle>
+
+  <back>
+    <references>
+      <name>References</name>
+      <references>
+        <name>Normative References</name>
+        
+      </references>
+ 
+      <references>
+        <name>Informative References</name>
+       
+      </references>
+    </references>
+    
+ </back>
+</rfc>
