@@ -61,19 +61,48 @@
     <section>
       <name>Introduction</name>     
       
+      <!---
+        Points to make:
+          - Structured languages are a good thing: better standards docs, implementations that follow directly from them.
+          - Intermediate representation is needed: there are many input formats, and many output formats. Decoupling those is essential to remove duplicate effort. Also allows for tooling to be developed around the intermediate representation. An intermediate representation also guides and constrains the design of ad-hoc languages: it specifies what needs to be captured.
+          - sketch out the basic principles behind the language defined in this document: type system, and so on.
+          - some examples beyond parser code generation: some interest in the mailing list about generating the ASCII packet descriptions, for example.
+      -->
+      
       <t>
         The use of structured languages in standards documents enables protocol
-        definitions to be extracted automatically, and used, for example, to generate
-        parser code for the protocols that they specify.
+        definitions to be extracted automatically and used, for example, to generate
+        parser code for the protocols that they specify. This results in implementations that are less buggy, given that they follow directly from the specification, and standards documents that are less ambiguous.
+      </t>
+      
+      <t>
+        To allow for a spectrum of structured languages, from ad-hoc description languages such as that used to specify QUIC [cite], to formal languages like [example, cite], and for any number of output formats, it is desirable to define an intermediate representation that captures the syntax of protocol data and the semantics of how it should be parsed.
+      </t>
+      
+      <t>
+        This document defines ..
       </t>
     </section>
     
     <section>
       <name>Architecture</name>
+      
+      <!---
+        Points to make:
+          - make it clear where the intermediate representation sits, wrt input and output formats, and why it is needed.
+          - diagram: figure 1 from the IFIP Networking paper might be useful.
+      -->
     </section>   
 
     <section>
       <name>Abstract Data Model</name>
+      
+      <!---
+        Points to make:
+          - describe the type system and the types we've defined.
+          - try to keep things practical: examples would be good (though perhaps better as a separate section).
+          - need a language for describing the type system. Rust might be OK? Don't want it to come off as too academic, and don't want a language that requires a lot of explanation itself.
+      -->
     </section>   
 
     <section anchor="IANA">
